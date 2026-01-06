@@ -1,4 +1,4 @@
-# Measuring CRINK Alignment in the UN
+﻿# Measuring CRINK Alignment in the UN
 
 This repository contains code and analysis for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in United Nations voting behavior.
 
@@ -27,39 +27,39 @@ Raw UNGA voting records are publicly available from the UN. Processed datasets a
 
 ```
 measuring-CRINK-alignment-UN/
-├── README.md                           # This file
-├── CITATION.cff                        # Citation metadata
-├── LICENSE                             # MIT License
-├── requirements.txt                    # Python dependencies
-├── .gitignore                          # Git ignore patterns
-├── .env.example                        # Template for environment variables
-│
-├── data/
-│   ├── raw/                           # Original data files (not in repo)
-│   ├── processed/                     # Cleaned/processed datasets
-│   └── metadata.json                  # Data provenance and versions
-│
-├── notebooks/
-│   ├── 01_topic_distribution.ipynb    # Topic distribution analysis
-│   └── 02_alignment_metrics.ipynb     # CRINK alignment metrics
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_processing.py             # Data loading and cleaning
-│   ├── alignment_metrics.py           # Alignment calculation functions
-│   └── visualization.py               # Plotting functions
-│
-├── config/
-│   ├── config.yaml                    # Analysis configuration (no secrets)
-│   └── .env.example                   # Template for environment variables
-│
-├── results/
-│   └── .gitkeep                       # Output plots and tables
-│
-└── docs/
-    ├── methodology.md                 # Detailed methodology
-    ├── data_dictionary.md             # Data column descriptions
-    └── troubleshooting.md             # Common issues and solutions
+â”œâ”€â”€ README.md                           # This file
+â”œâ”€â”€ CITATION.cff                        # Citation metadata
+â”œâ”€â”€ LICENSE                             # MIT License
+â”œâ”€â”€ requirements.txt                    # Python dependencies
+â”œâ”€â”€ .gitignore                          # Git ignore patterns
+â”œâ”€â”€ .env.example                        # Template for environment variables
+â”‚
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ raw/                           # Original data files (not in repo)
+â”‚   â”œâ”€â”€ processed/                     # Cleaned/processed datasets
+â”‚   â””â”€â”€ metadata.json                  # Data provenance and versions
+â”‚
+â”œâ”€â”€ notebooks/
+â”‚   â”œâ”€â”€ 01_topic_distribution.ipynb    # Topic distribution analysis
+â”‚   â””â”€â”€ 02_alignment_metrics.ipynb     # CRINK alignment metrics
+â”‚
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ data_processing.py             # Data loading and cleaning
+â”‚   â”œâ”€â”€ alignment_metrics.py           # Alignment calculation functions
+â”‚   â””â”€â”€ visualization.py               # Plotting functions
+â”‚
+â”œâ”€â”€ config/
+â”‚   â”œâ”€â”€ config.yaml                    # Analysis configuration (no secrets)
+â”‚   â””â”€â”€ .env.example                   # Template for environment variables
+â”‚
+â”œâ”€â”€ results/
+â”‚   â””â”€â”€ .gitkeep                       # Output plots and tables
+â”‚
+â””â”€â”€ docs/
+    â”œâ”€â”€ methodology.md                 # Detailed methodology
+    â”œâ”€â”€ data_dictionary.md             # Data column descriptions
+    â””â”€â”€ troubleshooting.md             # Common issues and solutions
 ```
 
 ## Quick Start
@@ -67,7 +67,7 @@ measuring-CRINK-alignment-UN/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/measuring-CRINK-alignment-UN.git
+git clone https://github.com/LBumeder/measuring-CRINK-alignment-UN.git
 cd measuring-CRINK-alignment-UN
 ```
 
@@ -164,11 +164,11 @@ When using this code or datasets, please cite:
 
 ```bibtex
 @article{CRINK2025,
-  author = {Your Name and Co-authors},
+  author = {Lucian Bumeder and Sabine Mokry-Frey},
   title = {Measuring CRINK Alignment in the UN: Evidence from Voting Behavior},
   journal = {Journal Name},
   year = {2025},
-  doi = {your-doi-here}
+  doi = {TBD}
 }
 ```
 
@@ -177,7 +177,7 @@ See `CITATION.cff` for additional formats.
 ## Data Availability
 
 Processed datasets and reproducible notebooks are available at:
-- **GitHub**: [measuring-CRINK-alignment-UN](https://github.com/your-username/measuring-CRINK-alignment-UN)
+- **GitHub**: [measuring-CRINK-alignment-UN](https://github.com/LBumeder/measuring-CRINK-alignment-UN)
 - **Harvard Dataverse**: [Link to be added] (DOI: TBD)
 
 ## License
@@ -186,13 +186,14 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## Authors
 
-- Lucian [Last Name]
+- Lucian Bumeder
 - Sabine Mokry-Frey
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [your-email@example.com].
+For questions or issues, please open an issue on GitHub or contact lucian.bumeder@ifsh.de.
 
 ## Acknowledgments
 
-We thank [funding agencies, institutions, and colleagues] for their support in this research.
+We thank the Institute for Peace Research and Security Policy and Tulane University for their support in this research.
+
