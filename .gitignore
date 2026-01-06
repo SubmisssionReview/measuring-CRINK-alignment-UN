@@ -38,7 +38,8 @@ wheels/
 *~
 .DS_Store
 
-# Data files (large)
+# Data files (large) - CSV files excluded, available from Harvard Dataverse
+*.csv
 data/raw/*.csv
 data/processed/*.csv
 *.npy
