@@ -1,6 +1,6 @@
 ﻿# Measuring CRINK Alignment in the UN
 
-This repository contains code and analysis for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in United Nations voting behavior.
+This repository contains code and analysis for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in United Nations voting behavior. The data can be used to replicate the findings of the article draft "Emerging Bloc or Fragmented Coalition? Voting Behavior of China, Russia, Iran, and North Korea at the UN" by Sabine Mokry and Lucian Bumeder (forthcoming 2026). 
 
 ## Overview
 
