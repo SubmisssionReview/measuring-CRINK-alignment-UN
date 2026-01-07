@@ -1,10 +1,10 @@
-﻿# Measuring CRINK Alignment in the UN
+ï»¿# Measuring CRINK Alignment in the UN
 
-This repository contains code and analysis for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in United Nations voting behavior. The data can be used to replicate the findings of the article draft "Emerging Bloc or Fragmented Coalition? Voting Behavior of China, Russia, Iran, and North Korea at the UN" by Sabine Mokry and Lucian Bumeder (forthcoming 2026). 
+This repository contains python code for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in the United Nations voting record. The data can be used to replicate the findings of the draft article  ─Emerging Bloc or Fragmented Coalition? Voting Behavior of China, Russia, Iran, and North Korea at the UN─ by Sabine Mokry and Lucian Bumeder (forthcoming 2026). 
 
 ## Overview
 
-This research examines the frequency, configuration, and issue-specific contours of CRINK voting alignment using United Nations General Assembly (UNGA) plenary and First Committee voting records from 1991-2024. The analysis situates CRINK alignment relative to Western democracies and the UN majority, providing a systematic assessment of whether these four countries constitute a cohesive authoritarian bloc or a fragmented coalition.
+This research examines the frequency, configuration, and issue-specific contours of CRINK voting alignment using United Nations General Assembly (UNGA) plenary from 1991-2024 and First Committee voting records from 2003-2024. The analysis situates CRINK alignment relative to Western democracies and the UN majority, providing a systematic assessment of whether these four countries constitute a cohesive authoritarian bloc or a fragmented coalition.
 
 ## Key Findings
 
@@ -27,39 +27,39 @@ Raw UNGA voting records are publicly available from the UN. Processed datasets a
 
 ```
 measuring-CRINK-alignment-UN/
-â”œâ”€â”€ README.md                           # This file
-â”œâ”€â”€ CITATION.cff                        # Citation metadata
-â”œâ”€â”€ LICENSE                             # MIT License
-â”œâ”€â”€ requirements.txt                    # Python dependencies
-â”œâ”€â”€ .gitignore                          # Git ignore patterns
-â”œâ”€â”€ .env.example                        # Template for environment variables
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/                           # Original data files (not in repo)
-â”‚   â”œâ”€â”€ processed/                     # Cleaned/processed datasets
-â”‚   â””â”€â”€ metadata.json                  # Data provenance and versions
-â”‚
-â”œâ”€â”€ notebooks/
-â”‚   â”œâ”€â”€ 01_topic_distribution.ipynb    # Topic distribution analysis
-â”‚   â””â”€â”€ 02_alignment_metrics.ipynb     # CRINK alignment metrics
-â”‚
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ __init__.py
-â”‚   â”œâ”€â”€ data_processing.py             # Data loading and cleaning
-â”‚   â”œâ”€â”€ alignment_metrics.py           # Alignment calculation functions
-â”‚   â””â”€â”€ visualization.py               # Plotting functions
-â”‚
-â”œâ”€â”€ config/
-â”‚   â”œâ”€â”€ config.yaml                    # Analysis configuration (no secrets)
-â”‚   â””â”€â”€ .env.example                   # Template for environment variables
-â”‚
-â”œâ”€â”€ results/
-â”‚   â””â”€â”€ .gitkeep                       # Output plots and tables
-â”‚
-â””â”€â”€ docs/
-    â”œâ”€â”€ methodology.md                 # Detailed methodology
-    â”œâ”€â”€ data_dictionary.md             # Data column descriptions
-    â””â”€â”€ troubleshooting.md             # Common issues and solutions
+├── README.md                           # This file
+├── CITATION.cff                        # Citation metadata
+├── LICENSE                             # MIT License
+├── requirements.txt                    # Python dependencies
+├── .gitignore                          # Git ignore patterns
+├── .env.example                        # Template for environment variables
+│
+├── data/
+│   ├── raw/                           # Original data files (not in repo)
+│   ├── processed/                     # Cleaned/processed datasets
+│   └── metadata.json                  # Data provenance and versions
+│
+├── notebooks/
+│   ├── 01_topic_distribution.ipynb    # Topic distribution analysis
+│   └── 02_alignment_metrics.ipynb     # CRINK alignment metrics
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_processing.py             # Data loading and cleaning
+│   ├── alignment_metrics.py           # Alignment calculation functions
+│   └── visualization.py               # Plotting functions
+│
+├── config/
+│   ├── config.yaml                    # Analysis configuration (no secrets)
+│   └── .env.example                   # Template for environment variables
+│
+├── results/
+│   └── .gitkeep                       # Output plots and tables
+│
+└── docs/
+    ├── methodology.md                 # Detailed methodology
+    ├── data_dictionary.md             # Data column descriptions
+    └── troubleshooting.md             # Common issues and solutions
 ```
 
 ## Quick Start
@@ -107,7 +107,7 @@ jupyter notebook notebooks/02_alignment_metrics.ipynb
 
 ## Reproducibility
 
-This project emphasizes reproducibility:
+The analysis in this project is reproducable if the following settings are kept stable. 
 
 - **Fixed random seeds** for all stochastic operations
 - **Pinned package versions** in `requirements.txt`
@@ -127,7 +127,7 @@ Key parameters (used in published research):
 
 ```python
 # Topic analysis
-EMBEDDING_MODEL = "text-embedding-3-large"
+EMBEDDING_MODEL = ─text-embedding-3-large─
 HDBSCAN_MIN_CLUSTER_SIZE = 10
 TARGET_META_TOPICS = 20
 
@@ -136,7 +136,7 @@ CRINK_COUNTRIES = [
     'CHINA',
     'RUSSIAN FEDERATION',
     'IRAN (ISLAMIC REPUBLIC OF)',
-    "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA"
+    ─DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA─
 ]
 
 WESTERN_COUNTRIES = [
@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## Authors
 
 - Lucian Bumeder
-- Sabine Mokry-Frey
+- Dr. Sabine Mokry-Frey
 
 ## Contact
 
