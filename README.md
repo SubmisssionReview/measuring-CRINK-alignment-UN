@@ -191,9 +191,4 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact lucian.bumeder@ifsh.de.
-
-## Acknowledgments
-
-We thank the Institute for Peace Research and Security Policy and Tulane University for their support in this research.
-
+For questions or issues, please open an issue on GitHub or contact bumeder@ifsh.de.
