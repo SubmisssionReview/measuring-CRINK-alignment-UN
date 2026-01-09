@@ -37,12 +37,7 @@ This is an academic research repository for analyzing UN General Assembly voting
 
 ### Notebooks
 
-**`notebooks/01_topic_distribution.ipynb`** (13 cells)
-- Overview: Time series of coalition voting, group cohesion trends, UN majority alignment
-- Outputs: Figures 1-3, Tables 2-3
-- **Pattern:** Each cell is self-contained; later cells depend on earlier dataframes; uses global `CRINK_COUNTRIES`, `WESTERN_COUNTRIES` dicts
-
-**`notebooks/02_alignment_metrics.ipynb`** (33 cells)
+**`notebooks/01_alignment_metrics.ipynb`** (33 cells)
 - Overview: Advanced dyadic analysis, topic-level breakdowns, Western comparison, publication figures
 - Outputs: Figures 4-9, Tables 4-5
 - **Pattern:** Cells 17-24 contain publication figures with dataset switcher (`database='UNGA'` or `'First Committee'`)
@@ -50,6 +45,11 @@ This is an academic research repository for analyzing UN General Assembly voting
   - Cells 1-9: Preliminary setup
   - Cells 10-16: China/US-centric dyadic alignment tables with HTML/LaTeX export
   - Cells 17-24: Publication figures (Figure 2, dyad plot, coalition bar chart, anti-US voting)
+
+**`notebooks/02_topic_distribution.ipynb`** (13 cells)
+- Overview: Time series of coalition voting, group cohesion trends, UN majority alignment
+- Outputs: Figures 1-3, Tables 2-3
+- **Pattern:** Each cell is self-contained; later cells depend on earlier dataframes; uses global `CRINK_COUNTRIES`, `WESTERN_COUNTRIES` dicts
 
 ---
 
@@ -237,6 +237,6 @@ with open(f'results/table_{name}.tex', 'w') as f:
 | Raw Data (not in repo) | `data/raw/` | `UNGA_voting_records.csv`, `First_Committee_voting_records.csv` |
 | Processed Data | `data/processed/` | Cleaned CSVs, ready for analysis |
 | Analysis Code | `src/` | `data_processing.py`, `alignment_metrics.py`, `visualization.py` |
-| Interactive Analysis | `notebooks/` | `01_topic_distribution.ipynb`, `02_alignment_metrics.ipynb` |
+| Interactive Analysis | `notebooks/` | `01_alignment_metrics.ipynb`, `02_topic_distribution.ipynb` |
 | Outputs | `results/` | PNG figures, HTML/LaTeX tables, CSV exports |
 | Docs | `docs/` | `methodology.md`, `data_dictionary.md`, `troubleshooting.md` |

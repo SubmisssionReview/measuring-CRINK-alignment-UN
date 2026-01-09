@@ -39,8 +39,8 @@ measuring-CRINK-alignment-UN/
 │   └── metadata.json                  # Data provenance and versions
 │
 ├── notebooks/
-│   ├── 01_topic_distribution.ipynb    # Topic distribution analysis
-│   └── 02_alignment_metrics.ipynb     # CRINK alignment metrics
+│   ├── 01_alignment_metrics.ipynb     # CRINK alignment metrics
+│   └── 02_topic_distribution.ipynb    # Topic distribution analysis
 │
 ├── src/
 │   ├── __init__.py
@@ -100,8 +100,8 @@ Download the processed datasets from Harvard Dataverse (link to be provided upon
 Open and execute the notebooks in order:
 
 ```bash
-jupyter notebook notebooks/01_topic_distribution.ipynb
-jupyter notebook notebooks/02_alignment_metrics.ipynb
+jupyter notebook notebooks/01_alignment_metrics.ipynb
+jupyter notebook notebooks/02_topic_distribution.ipynb
 ```
 
 ## Reproducibility
