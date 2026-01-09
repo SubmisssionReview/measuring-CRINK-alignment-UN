@@ -1,6 +1,6 @@
 # Measuring CRINK Alignment in the UN
 
-This repository contains python code for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in the United Nations voting record. The data can be used to replicate the findings of the draft article "Emerging Bloc or Fragmented Coalition? Voting Behavior of China, Russia, Iran, and North Korea at the UN" by Sabine Mokry and Lucian Bumeder (forthcoming 2026). 
+This repository contains python code for measuring the political alignment of China, Russia, Iran, and North Korea (CRINK) in the United Nations voting record. The data can be used to replicate the findings of the accompanying research article "Emerging Bloc or Fragmented Coalition? Voting Behavior of China, Russia, Iran, and North Korea at the UN" (forthcoming 2026). 
 
 ## Overview
 
@@ -18,7 +18,7 @@ This research examines the frequency, configuration, and issue-specific contours
 
 ### Primary Data
 - **UNGA Plenary Votes**: UN General Assembly voting records (1991-2024) from the [UN Digital Library](https://digitallibrary.un.org/record/4060887?ln=en)
-- **First Committee Votes**: Manually collected UN General Assembly First Committee voting data (2003-2024) on security, disarmament, and arms control issues
+- **First Committee Votes**: UN General Assembly First Committee voting data (2003-2024) on security, disarmament, and arms control issues from the [UNODA Resolutions Database](https://resolutions.unoda.org/)
 
 ### Data Availability
 Raw UNGA voting records are publicly available from the UN. Processed datasets and First Committee data will be available through [Harvard Dataverse](https://dataverse.harvard.edu/) for reproducibility.
@@ -28,7 +28,6 @@ Raw UNGA voting records are publicly available from the UN. Processed datasets a
 ```
 measuring-CRINK-alignment-UN/
 ├── README.md                           # This file
-├── CITATION.cff                        # Citation metadata
 ├── LICENSE                             # MIT License
 ├── requirements.txt                    # Python dependencies
 ├── .gitignore                          # Git ignore patterns
@@ -67,7 +66,7 @@ measuring-CRINK-alignment-UN/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/LBumeder/measuring-CRINK-alignment-UN.git
+git clone [REPOSITORY_URL]
 cd measuring-CRINK-alignment-UN
 ```
 
@@ -160,35 +159,18 @@ END_YEAR = 2024
 
 ## Citation
 
-When using this code or datasets, please cite:
-
-```bibtex
-@article{CRINK2025,
-  author = {Lucian Bumeder and Sabine Mokry-Frey},
-  title = {Measuring CRINK Alignment in the UN: Evidence from Voting Behavior},
-  journal = {Journal Name},
-  year = {2025},
-  doi = {TBD}
-}
-```
-
-See `CITATION.cff` for additional formats.
+Citation information will be provided upon publication.
 
 ## Data Availability
 
-Processed datasets and reproducible notebooks are available at:
-- **GitHub**: [measuring-CRINK-alignment-UN](https://github.com/LBumeder/measuring-CRINK-alignment-UN)
+Processed datasets and reproducible notebooks will be available at:
+- **GitHub**: [Repository URL to be added upon publication]
 - **Harvard Dataverse**: [Link to be added] (DOI: TBD)
 
 ## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
-## Authors
-
-- Lucian Bumeder
-- Dr. Sabine Mokry-Frey
-
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact bumeder@ifsh.de.
+For questions or issues, please open an issue on the repository.

@@ -20,10 +20,10 @@ After creating the repository on GitHub, you'll see instructions. Run these comm
 
 ```bash
 # Navigate to your local repository
-cd c:\Users\Lucian\measuring-CRINK-alignment-UN
+cd measuring-CRINK-alignment-UN
 
 # Add the remote repository
-git remote add origin https://github.com/LBumeder/measuring-CRINK-alignment-UN.git
+git remote add origin https://github.com/[YOUR_USERNAME]/measuring-CRINK-alignment-UN.git
 
 # Verify the remote was added
 git remote -v
@@ -33,7 +33,7 @@ git branch -M main
 git push -u origin main
 ```
 
-**Replace `LBumeder`** with your actual GitHub username.
+**Replace `[YOUR_USERNAME]`** with your actual GitHub username.
 
 ## Step 3: Verify on GitHub
 
