@@ -46,10 +46,14 @@ This is an academic research repository for analyzing UN General Assembly voting
   - Cells 10-16: China/US-centric dyadic alignment tables with HTML/LaTeX export
   - Cells 17-24: Publication figures (Figure 2, dyad plot, coalition bar chart, anti-US voting)
 
-**`notebooks/02_topic_distribution.ipynb`** (13 cells)
-- Overview: Time series of coalition voting, group cohesion trends, UN majority alignment
-- Outputs: Figures 1-3, Tables 2-3
-- **Pattern:** Each cell is self-contained; later cells depend on earlier dataframes; uses global `CRINK_COUNTRIES`, `WESTERN_COUNTRIES` dicts
+**`notebooks/02_generating_topic_analysis.ipynb`** (14 cells)
+- Overview: Topic-level voting analysis using pre-computed embeddings and mappings
+- Outputs: Table 2 (Topic Distribution of Resolutions where CRINK States Fully Aligned)
+- **Pattern:** Uses cached embeddings from `data/mappings/`, runs HDBSCAN clustering, applies confirmed topic mappings
+- **Key Files Required:**
+  - `data/mappings/UNGA_embeddings.npy` or `First_Committee_embeddings.npy`
+  - `data/mappings/topic_mapping_confirmed_*.json`
+  - `data/mappings/noise_mapping_confirmed_*.json`
 
 ---
 
@@ -237,6 +241,7 @@ with open(f'results/table_{name}.tex', 'w') as f:
 | Raw Data (not in repo) | `data/raw/` | `UNGA_voting_records.csv`, `First_Committee_voting_records.csv` |
 | Processed Data | `data/processed/` | Cleaned CSVs, ready for analysis |
 | Analysis Code | `src/` | `data_processing.py`, `alignment_metrics.py`, `visualization.py` |
-| Interactive Analysis | `notebooks/` | `01_alignment_metrics.ipynb`, `02_topic_distribution.ipynb` |
+| Interactive Analysis | `notebooks/` | `01_alignment_metrics.ipynb`, `02_generating_topic_analysis.ipynb` |
+| Topic Mappings | `data/mappings/` | Pre-computed embeddings (.npy), topic/noise mapping JSONs |
 | Outputs | `results/` | PNG figures, HTML/LaTeX tables, CSV exports |
 | Docs | `docs/` | `methodology.md`, `data_dictionary.md`, `troubleshooting.md` |

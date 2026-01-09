@@ -36,11 +36,12 @@ measuring-CRINK-alignment-UN/
 ├── data/
 │   ├── raw/                           # Original data files (not in repo)
 │   ├── processed/                     # Cleaned/processed datasets
+│   ├── mappings/                      # Pre-computed embeddings and topic mappings
 │   └── metadata.json                  # Data provenance and versions
 │
 ├── notebooks/
 │   ├── 01_alignment_metrics.ipynb     # CRINK alignment metrics
-│   └── 02_topic_distribution.ipynb    # Topic distribution analysis
+│   └── 02_generating_topic_analysis.ipynb  # Topic-level voting analysis (Table 2)
 │
 ├── src/
 │   ├── __init__.py
