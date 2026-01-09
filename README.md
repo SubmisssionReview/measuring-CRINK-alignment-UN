@@ -40,7 +40,7 @@ measuring-CRINK-alignment-UN/
 │   └── metadata.json                  # Data provenance and versions
 │
 ├── notebooks/
-│   ├── 01_alignment_metrics.ipynb     # CRINK alignment metrics
+│   ├── 01_alignment_metrics.ipynb     # CRINK alignment metrics (Figure 1-9; Table 3-5)
 │   └── 02_generating_topic_analysis.ipynb  # Topic-level voting analysis (Table 2)
 │
 ├── src/
