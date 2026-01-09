@@ -67,7 +67,7 @@ measuring-CRINK-alignment-UN/
 ### 1. Clone the Repository
 
 ```bash
-git clone [REPOSITORY_URL]
+git clone https://github.com/SubmisssionReview/measuring-CRINK-alignment-UN.git
 cd measuring-CRINK-alignment-UN
 ```
 
